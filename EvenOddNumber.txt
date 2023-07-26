@@ -1,0 +1,16 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int num;
+    cout<<"Enter the any value:";
+    cin>>num;
+
+    if(num%2==0)
+cout<<"Given no.is EVEN"<<endl;
+
+else
+cout<<"Given no. is ODD"<<endl;
+
+return 0;
+}
